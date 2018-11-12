@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12439" started-at="2018-09-26T08:03:55Z" finished-at="2018-09-26T08:04:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12439" started-at="2018-09-26T08:03:55Z" finished-at="2018-09-26T08:04:08Z">
+      <class name="apiTesting.APITesting">
+        <test-method status="PASS" signature="test_Md5CheckSumForTest_ShouldBe098f6bcd4621d373cade4e832627b4f6()[pri:0, instance:apiTesting.APITesting@6ff29830]" name="test_Md5CheckSumForTest_ShouldBe098f6bcd4621d373cade4e832627b4f6" duration-ms="6773" started-at="2018-09-26T08:03:55Z" finished-at="2018-09-26T08:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Md5CheckSumForTest_ShouldBe098f6bcd4621d373cade4e832627b4f6 -->
+        <test-method status="PASS" signature="test_NumberOfCircuitsFor2017Season_ShouldBe20()[pri:0, instance:apiTesting.APITesting@6ff29830]" name="test_NumberOfCircuitsFor2017Season_ShouldBe20" duration-ms="846" started-at="2018-09-26T08:04:02Z" finished-at="2018-09-26T08:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NumberOfCircuitsFor2017Season_ShouldBe20 -->
+        <test-method status="PASS" signature="test_NumberOfCircuits_ShouldBe20_UsingResponseSpec()[pri:0, instance:apiTesting.APITesting@6ff29830]" name="test_NumberOfCircuits_ShouldBe20_UsingResponseSpec" duration-ms="652" started-at="2018-09-26T08:04:03Z" finished-at="2018-09-26T08:04:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NumberOfCircuits_ShouldBe20_UsingResponseSpec -->
+        <test-method status="PASS" signature="test_NumberOfCircuits_ShouldBe_DataDriven(java.lang.String, int)[pri:0, instance:apiTesting.APITesting@6ff29830]" name="test_NumberOfCircuits_ShouldBe_DataDriven" duration-ms="692" started-at="2018-09-26T08:04:04Z" data-provider="seasonsAndNumberOfRaces" finished-at="2018-09-26T08:04:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2017]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NumberOfCircuits_ShouldBe_DataDriven -->
+        <test-method status="PASS" signature="test_NumberOfCircuits_ShouldBe_DataDriven(java.lang.String, int)[pri:0, instance:apiTesting.APITesting@6ff29830]" name="test_NumberOfCircuits_ShouldBe_DataDriven" duration-ms="776" started-at="2018-09-26T08:04:04Z" data-provider="seasonsAndNumberOfRaces" finished-at="2018-09-26T08:04:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NumberOfCircuits_ShouldBe_DataDriven -->
+        <test-method status="PASS" signature="test_NumberOfCircuits_ShouldBe_DataDriven(java.lang.String, int)[pri:0, instance:apiTesting.APITesting@6ff29830]" name="test_NumberOfCircuits_ShouldBe_DataDriven" duration-ms="677" started-at="2018-09-26T08:04:05Z" data-provider="seasonsAndNumberOfRaces" finished-at="2018-09-26T08:04:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1966]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NumberOfCircuits_ShouldBe_DataDriven -->
+        <test-method status="PASS" signature="test_ResponseHeaderData_ShouldBeCorrect()[pri:0, instance:apiTesting.APITesting@6ff29830]" name="test_ResponseHeaderData_ShouldBeCorrect" duration-ms="476" started-at="2018-09-26T08:04:06Z" finished-at="2018-09-26T08:04:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ResponseHeaderData_ShouldBeCorrect -->
+        <test-method status="PASS" signature="test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia()[pri:0, instance:apiTesting.APITesting@6ff29830]" name="test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia" duration-ms="1319" started-at="2018-09-26T08:04:06Z" finished-at="2018-09-26T08:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia -->
+      </class> <!-- apiTesting.APITesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
